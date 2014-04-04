@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo pppoe-start && sudo route add default dev ppp0
+echo "The line is done!"
